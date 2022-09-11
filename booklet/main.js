@@ -121,11 +121,11 @@ for(let i = 1; i <= numero; i++){
 } */
 
 //Actividad 13
-let listado = '';
+/* let listado = '';
 
 for(let i = 0; i < 10; i++){
     let nombreIngresado = prompt('Ingrese un nombre');
     listado += nombreIngresado + '\n';
 }
 
-alert(listado);
+alert(listado); */
