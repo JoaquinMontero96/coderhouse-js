@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio entregable 2 - Montero Joaquin</title>
+</head>
+<body>
+    <h1>Calcula tu tasa metabólica basal</h1>
+    <form id="form">
+        <label for="sexo">Sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select>
+        <br>
+        <label for="peso">Peso (en kg):</label>
+        <input type="number" name="peso" id="peso">
+        <br>
+        <label for="altura">Altura (en cm):</label>
+        <input type="number" name="altura" id="altura">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <input type="submit" value="Enviar" id="submit">
+    </form>
+    <br><br>
+    <h2 id="tasa"></h2>
+    <script src="main.js"></script>
+</body>
+</html>
